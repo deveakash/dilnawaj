@@ -1,4 +1,3 @@
-import React from 'react'
 import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -12,7 +11,7 @@ import Leadership from './components/Leadership'
 import Certificates from './components/Certificates'
 import SoftSkills from './components/SoftSkills'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 
 function App() {
   return (
@@ -29,8 +28,8 @@ function App() {
       <Leadership />
       <Certificates />
       <SoftSkills />
-      {/* <Contact /> */}
-      <Footer />
+      <Contact />
+      {/* <Footer /> */}
     </>
   )
 }

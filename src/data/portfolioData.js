@@ -1,23 +1,17 @@
-// ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
-// All external links, personal info, and content in one place.
-// Update this file to change any content across the entire site.
-// ============================================================
-
 export const personalInfo = {
   name: "Dilnawaj Alam",
   firstName: "Dilnawaj Alam",
   brandName: "Dilnawaj Alam",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  title: "Data Science Student",
+  location: "Bihar, India",
+  phone: "",
   emails: {
     primary: "mddilnawazsheikh0786@gmail.com",
     secondary: "mddilnawazsheikh0786@gmail.com",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in ,Python. Passionate about building scalable applications with clean architecture and modern tech stacks.",
+  resumeUrl: "/Dilnawaj_resume.pdf",
 };
 
 export const socialLinks = {
@@ -29,11 +23,11 @@ export const heroContent = {
   greeting: "Hi, I'm Dilnawaj",
   titleHighlight: "Data Science and ML Student",
   subtitle:
-    "I build fast, scalable applications using Python, C++ and MERN Stack.",
+    "I build fast, scalable applications using Python, C++.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mddilnawazsheikh0786@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "#contact",
   },
   ctaResume: { text: "Download Resume", href: "./Dilnawaj_resume.pdf" },
 };
@@ -41,7 +35,7 @@ export const heroContent = {
 export const aboutContent = {
   heading: "Hello!",
   bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Dilnawaj Alam</span>, an aspiring Data Science  Student based in Bettiah , Bihar, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Python", "Spring Boot", "MERN Stack"],
+  techStack: ["Python", "Spring Boot",],
 };
 
 export const skillsContent = {
@@ -86,37 +80,11 @@ export const technicalSkills = {
       ],
     },
     {
-      title: "Full Stack",
-      skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 },
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 },
-      ],
-    },
-    {
-      title: "Databases",
-      skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 },
-      ],
-    },
-    {
       title: "Tools & Automation",
       skills: [
         { name: "Git & GitHub", level: 90 },
         { name: "VS Code", level: 95 },
         { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
         { name: "MongoDB Compass", level: 85 },
       ],
     },
@@ -127,7 +95,7 @@ export const technicalSkills = {
         { name: "Algorithms", level: 85 },
         { name: "DBMS", level: 86 },
         { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 },
+        { name: "Operating System", level: 84 },
       ],
     },
   ],
@@ -193,20 +161,7 @@ export const internshipsList = [
     role: "AI Intern | Sipher Web Pvt. Ltd.",
     duration: "June 2025 - August 2025",
     skills: ["Data Science", "Python"],
-    tech: ["Python", "MySQL", "Spring boot", "Data Science Tools"],
-  },
-
-  {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: [
-      "Frontend Development",
-      "Responsive Layouts",
-      "API Testing",
-      "Web Performance",
-    ],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    tech: ["Python","Data Science Tools"],
   },
 ];
 
@@ -262,10 +217,10 @@ export const projects = [
     title: "Heart Disease Prediction",
     description:
       "Analyzed 9,000 patient records to identify cardiovascular risk indicators, implemented and benchmarked five ML classification models Logistic Regression, KNN, Decision Tree, Random Forest, and SVM using Python and Scikit-learn, achieving 88.59% accuracy.",
-    techTags: ["React", "Next.js"],
+    techTags: ["Python"],
     links: {
       github: "https://github.com/Dilnawaj0786",
-      demo: null,
+     
     },
     isFlagship: true,
   },
@@ -276,7 +231,7 @@ export const projects = [
     title: "Bank Management System",
     description:
       "Developed a Bank Management System using Python, OOP, file handling, and exception handling, implementing CRUD operations for customer account details.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+    techTags: ["Python"],
     links: {
       github: "https://github.com/Dilnawaj0786",
     },
@@ -289,9 +244,9 @@ export const projects = [
     title: "Student Exam Score Prediction",
     description:
       "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+    techTags: ["Python"],
     links: {
-      github: "https://github.com/Dilnawaj0786", // Update when available
+      github: "https://github.com/Dilnawaj0786",
     },
     isFlagship: false,
   },
