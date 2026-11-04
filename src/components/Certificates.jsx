@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { certificates } from '../data/portfolioData';
 
 const CertificateCard = ({ cert, aosDelay }) => (

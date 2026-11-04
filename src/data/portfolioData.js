@@ -33,7 +33,7 @@ export const heroContent = {
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:mddilnawazsheikh0786@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
   ctaResume: { text: "Download Resume", href: "/Dilnawaj_resune.pdf" },
 };
@@ -82,8 +82,8 @@ export const technicalSkills = {
       skills: [
         // { name: "Java", level: 90 },
         { name: "C++", level: 90 },
-        { name: "Python", level: 85 }
-      ]
+        { name: "Python", level: 85 },
+      ],
     },
     {
       title: "Full Stack",
@@ -91,24 +91,24 @@ export const technicalSkills = {
         { name: "MERN Stack", level: 90 },
         { name: "HTML", level: 95 },
         { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
-      ]
+        { name: "JavaScript", level: 92 },
+      ],
     },
     {
       title: "Backend",
       skills: [
         { name: "Spring Boot", level: 88 },
         { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
-      ]
+        { name: "REST APIs", level: 90 },
+      ],
     },
     {
       title: "Databases",
       skills: [
         { name: "MongoDB", level: 88 },
         { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
-      ]
+        { name: "Firebase", level: 80 },
+      ],
     },
     {
       title: "Tools & Automation",
@@ -117,8 +117,8 @@ export const technicalSkills = {
         { name: "VS Code", level: 95 },
         { name: "Postman", level: 88 },
         { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 }
-      ]
+        { name: "MongoDB Compass", level: 85 },
+      ],
     },
     {
       title: "Computer Science Concepts",
@@ -127,59 +127,63 @@ export const technicalSkills = {
         { name: "Algorithms", level: 85 },
         { name: "DBMS", level: 86 },
         { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
-      ]
-    }
-  ]
+        { name: "Software Engineering", level: 84 },
+      ],
+    },
+  ],
 };
 
 // Brand New Content Creation Data
 export const contentCreation = {
   badge: "Education",
   heading: "Creative Direction & Scalable Knowledge",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
+  description:
+    "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
   categories: [
     {
       title: "Class 12th (BSEB)",
       description: "MKM Inter College",
       stats: "82.5%",
-      icon: ""
+      icon: "",
     },
     {
       title: "Class 10th (CBSE)",
       description: "Awasiya Delhi Public School",
       stats: "64%",
-      icon: ""
+      icon: "",
     },
     {
       title: "Computer Science & Engg.",
       description: "Integral University",
       stats: "CGPA 9.5",
-      icon: ""
-    }
-  ]
+      icon: "",
+    },
+  ],
 };
 
 // Brand New Leadership Data
 export const leadershipList = [
   {
     title: "Heart Disease Prediction",
-    description: "Analyzed 9,000 patient records to identify cardiovascular risk indicators, implemented and benchmarked five ML classification models Logistic Regression, KNN, Decision Tree, Random Forest, and SVM using Python and Scikit-learn, achieving 88.59% accuracy",
+    description:
+      "Analyzed 9,000 patient records to identify cardiovascular risk indicators, implemented and benchmarked five ML classification models Logistic Regression, KNN, Decision Tree, Random Forest, and SVM using Python and Scikit-learn, achieving 88.59% accuracy",
     role: "Developer",
-    badge: "Developer"
+    badge: "Developer",
   },
   {
     title: "Bank Management System",
-    description: "Developed a Bank Management System using Python, OOP, file handling, and exception handling, implementing CRUD operations for customer account details.",
+    description:
+      "Developed a Bank Management System using Python, OOP, file handling, and exception handling, implementing CRUD operations for customer account details.",
     role: "Developer",
-    badge: "Developer"
+    badge: "Developer",
   },
   {
     title: "Student Exam Score Prediction",
-    description: "Developed a Student Score Prediction project using Python and machine learning libraries to build an ML model that predicts students’ scores based on relevant input factors.",
+    description:
+      "Developed a Student Score Prediction project using Python and machine learning libraries to build an ML model that predicts students’ scores based on relevant input factors.",
     role: "Developer",
-    badge: "Developer"
-  }
+    badge: "Developer",
+  },
 ];
 
 // Brand New Internships Data
@@ -189,28 +193,65 @@ export const internshipsList = [
     role: "AI Intern | Sipher Web Pvt. Ltd.",
     duration: "June 2025 - August 2025",
     skills: ["Data Science", "Python"],
-    tech: ["Python", "MySQL", "Spring boot", "Data Science Tools"]
+    tech: ["Python", "MySQL", "Spring boot", "Data Science Tools"],
   },
-  
+
   {
     organization: "CollegeTips.in",
     role: "Web Development Intern",
     duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
-  }
+    skills: [
+      "Frontend Development",
+      "Responsive Layouts",
+      "API Testing",
+      "Web Performance",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+  },
 ];
 
 // Brand New Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  {
+    name: "Leadership",
+    icon: "👑",
+    desc: "Guiding teams, managing tasks, and driving project completion with shared vision.",
+  },
+  {
+    name: "Public Speaking",
+    icon: "🎤",
+    desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas.",
+  },
+  {
+    name: "Team Collaboration",
+    icon: "🤝",
+    desc: "Collaborating across fields, building racing carts, and engineering code in sync.",
+  },
+  {
+    name: "Communication",
+    icon: "💬",
+    desc: "Clear, concise, and structured interactions in both business and technical contexts.",
+  },
+  {
+    name: "Problem Solving",
+    icon: "🧩",
+    desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces.",
+  },
+  {
+    name: "Adaptability",
+    icon: "🌟",
+    desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n.",
+  },
+  {
+    name: "Creativity",
+    icon: "🎨",
+    desc: "Blending cinematic aesthetics with software structure to build premium experiences.",
+  },
+  {
+    name: "Time Management",
+    icon: "⏰",
+    desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms.",
+  },
 ];
 
 export const projects = [
@@ -221,10 +262,7 @@ export const projects = [
     title: "Heart Disease Prediction",
     description:
       "Analyzed 9,000 patient records to identify cardiovascular risk indicators, implemented and benchmarked five ML classification models Logistic Regression, KNN, Decision Tree, Random Forest, and SVM using Python and Scikit-learn, achieving 88.59% accuracy.",
-    techTags: [
-      "React",
-      "Next.js",
-    ],
+    techTags: ["React", "Next.js"],
     links: {
       github: "https://github.com/Dilnawaj0786",
       demo: null,
@@ -240,7 +278,7 @@ export const projects = [
       "Developed a Bank Management System using Python, OOP, file handling, and exception handling, implementing CRUD operations for customer account details.",
     techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
     links: {
-      github: "https://github.com/Dilnawaj0786"
+      github: "https://github.com/Dilnawaj0786",
     },
     isFlagship: false,
   },
@@ -276,10 +314,8 @@ export const certificates = {
       issuer: "Integral University",
       icon: "",
     },
-    
   ],
-  viewAllUrl:
-    "",
+  viewAllUrl: "https://www.linkedin.com/in/dilnawaj-alam-211453323/",
 };
 
 export const education = {
@@ -304,7 +340,10 @@ export const footerContent = {
 // EmailJS Configuration
 // Will read directly from environment variables in Vite (starting with VITE_)
 export const emailjsConfig = {
-  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
-  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
-  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_EMAILJS_PUBLIC_KEY",
+  serviceId:
+    import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
+  templateId:
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",
+  publicKey:
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_EMAILJS_PUBLIC_KEY",
 };
